@@ -219,6 +219,9 @@ product* merge(product* left, product* right) {
     return result;
 }
 
+
+
+
 void split(product* head, product** left, product** right) {
     if (head == NULL || head->next == NULL) {
         *left = head;
